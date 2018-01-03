@@ -1,0 +1,25 @@
+{
+  "name": "builder-archetype-example",
+  "version": "1.0.0",
+  "description": "Builder Archetype Example",
+  "main": "entry.js",
+  "scripts": {
+    "builder:sayhi": "echo \"Hello, this means that Builder works.\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-for-coffee/builder-archetype-example.git"
+  },
+  "author": "James Traver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code-for-coffee/builder-archetype-example/issues"
+  },
+  "homepage": "https://github.com/code-for-coffee/builder-archetype-example#readme",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "builder-support": "^0.5.0"
+  }
+}
